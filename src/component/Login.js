@@ -109,6 +109,7 @@ flex-direction:column;
 gap:20px;
 padding:10px;
 align-items:center;
+overflow-x:hidden;
 
 @media (min-width:450px) {
   justify-content:space-between;
@@ -124,7 +125,7 @@ const Image=styled.img`
 @media (min-width:1000px) {
   flex-direction:row;
   width:500px;
-  height:500px;
+  height:400px;
 }
 margin-top:10px;
 width:300px;
